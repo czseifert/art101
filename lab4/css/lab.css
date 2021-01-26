@@ -1,0 +1,23 @@
+h1
+  {
+    font-family: serif, georgia;
+    font-size: 30px;
+    border: dotted 3px;
+}
+h2 {
+  font-family: serif, georgia;
+  font-size: 25px
+}
+h3 {
+  font-family: serif, georgia;
+  font-size: 20px
+}
+p {
+  font-family: serif, georgia;
+}
+ol{
+  font-size: 20px;
+}
+body {
+  border: solid 2px;
+}
