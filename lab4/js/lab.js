@@ -1,4 +1,4 @@
-<pre>
+
 //Task 1: How to Make Kimchi
   //Gather ingredients and supplies
   //Pour salt and leave for 30 mins/ 1 hour
@@ -26,4 +26,3 @@
   //Increase score
   //Increase speed every time user’s score reaches an interval of 100
   //Stop score and display “Game Over” text if user hits an obstacle
-</pre>
