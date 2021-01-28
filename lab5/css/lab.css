@@ -3,5 +3,9 @@ img {
   float: right;
 }
 body {
+  background-color: yellow;
+  border-style: dotted dashed solid double;
+}
+#content {
   margin-left: 20px;
 }
