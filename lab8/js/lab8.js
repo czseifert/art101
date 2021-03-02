@@ -12,6 +12,7 @@ function thirdThing(test) {
 firstThing("Test 1");
 secondThing("Test 1");
 thirdThing("Test 1");
+debugger;
 //test 2 -- call functions in order
 setTimeout(function() {
   firstThing("Test 2");
@@ -22,6 +23,7 @@ setTimeout(function() {
 setTimeout(function() {
   thirdThing("Test 2");
 } , 0);
+debugger;
 //test 3 -- adjust times, order is 2, 3, 1
 setTimeout(function() {
   firstThing("Test 3")
