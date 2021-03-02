@@ -11,21 +11,25 @@ for (var num = 1; num <=200; num++){
       str += "Fizz";
       $("#output").append("<p>" + str + "</p>");
     }
+    debugger;
 // If the number is a multiple of 5, it should print "Buzz!"
     if(num % 5 == 0){
       str += "Buzz";
       $("#output").append("<p>" + str + "</p>");
     }
+    debugger;
 // If the number is a multiple of 7, it should print "Boom!"
     if(num % 7 == 0){
       str += "Boom";
       $("#output").append("<p>" + str + "</p>");
     }
+    debugger;
 // If the number is a multiple of 10, it should print "Bang!"
     if(num % 10 == 0){
       str += "Bang";
       $("#output").append("<p>" + str + "</p>");
     }
+    debugger; 
 // If the number is a multiple of more than one 3, 5, 7, or 10 it should combine Fizz, Buzz, Boom, and Bang
     if (str == ''){
       str = num;
