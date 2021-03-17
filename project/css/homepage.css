@@ -1,14 +1,32 @@
 h1 {
   text-align: center;
-  font-family: cursive, sans-serif;
+  font-family: monospace;
+  text-shadow: 2px 2px 5px #712473;
+  color:  #daf0ea;
+  font-size: 50px;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-top-color:  #712473;
+  border-bottom-color: #712473;
+  border-width: thick;
+  border color:#712473
 }
 
 body {
   background-color: #94d6c4;
+  line-height: 55px;
 }
 
 #button {
   float: right;
+  background-color: #e4b2f7;
+  color: #f28ae4;
+  border-radius: 40px;
+  border-color: #712473;
+  font-size: 20px;
+  font-family: monospace;
+  height: 70px;
+  width: 180px;
   margin-right: 50px;
 }
 
@@ -16,11 +34,17 @@ a {
   font-size: 20px;
 }
 
-p {
-  padding: right 50px;
-  padding: left 50px;
+#text {
   border: solid, padding 10px;
-  margin: 50px;
+  border-radius: 20px;
+  margin-left: 70px;
+  margin-bottom: 10px;
   font-size: 30px;
-  background-color: #daf0ea
+  background-color: #daf0ea; width: 1100px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  color:#248a63;
+  font-family: monospace;
+  font size: 30px;
+  text-shadow: 2px 2px 5px #e4b2f7;
 }
