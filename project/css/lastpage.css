@@ -1,8 +1,57 @@
 h1 {
   text-align: center;
   font-family: cursive, sans-serif;
+  font-size: 50px;
+  padding-top: 10px;
+  color: #712473;
+  text-decoration: underline;
+  text-decoration-color:#e4b2f7 ;
+  background-color: #c1e6d4;
+}
+.extra {
+    display: none;
 }
 
-body {
-  background-color: #94d6c4;
+h1:hover .extra {
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    font-family:cursive, sans-serif;
+}
+
+.padding{
+  padding-bottom: 50px;
+}
+
+body{
+  background-color:#94d6c4;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size:25px;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 20px;
+  left:700px;
+  right: 50px;
+  bottom:50px;
+  transform: translate(-50%, -50%);
+  vertical-align: text-top;
+
 }
